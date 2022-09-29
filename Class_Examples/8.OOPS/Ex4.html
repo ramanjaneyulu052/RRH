@@ -1,0 +1,55 @@
+<script>
+
+    //javascript_Functions
+    //function name(){......}
+    //var variable = function(){.....}
+    //var variable=()=> {......}
+
+    //js_variable inside Functions
+    //function name(){var variable = value}
+
+    //js-function with argument
+    //function name(argument){...argument....} name(value)
+
+    // class_declaration & Body
+    class user
+    {
+        //class-properties/variables
+        uid=1
+        uname="kumar"
+        uemail="kumar@gmail.com"
+
+        // class_methods/functions
+        Myfun1(request)
+        {
+            var msg = request
+            return`${msg} <br/>`
+        }
+        Myfun2 = function(request)
+        {
+            var msg = request
+            return `${msg} <br/>`
+        }
+        Myfun3=(request)=>
+        {
+            var msg = request
+            return`${msg} `
+        }
+    }
+
+    //object of the class
+    //var objectName = new className
+     var u=new user
+     document.write(`
+                    <h3>Class Properties Data: </h3> 
+                     UID is:${u.uid} <br/>
+                     UNAME is:${u.uname} <br/>
+                     UEMAIL is:${u.uemail} 
+                     `)
+     document.write(`
+                    <h3>Class Methods Data: </h3> 
+                     ${u.Myfun1("Named Function with Argument")} <br/>
+                     ${u.Myfun2("Call back Function with Argument")} <br/>
+                     ${u.Myfun3("Arrow Function with Argument")} 
+                  `)
+</script>

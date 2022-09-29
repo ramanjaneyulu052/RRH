@@ -1,0 +1,99 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "uname": "Ram1",
+      "email": "Ram1@gmail.com",
+      "phone": 7815643290
+    },
+    {
+      "id": 2,
+      "uname": "Ram2",
+      "email": "Ram2@gmail.com",
+      "phone": 9876453021
+    },
+    {
+      "uname": "Ram3",
+      "email": "Ram3@gmail.com",
+      "phone": 8675943210,
+      "id": 3
+    },
+    {
+      "id": 4,
+      "uname": "Ram4",
+      "email": "Ram4@gmail.com",
+      "phone": 9706501243
+    },
+    {
+      "uname": "Ram5",
+      "email": "Ram5@gmail.com",
+      "phone": "8675943211",
+      "id": 5
+    },
+    {
+      "id": 6,
+      "uname": "Ram6",
+      "email": "Ram6@gmail.com",
+      "phone": 9706501243
+    },
+    {
+      "id": 7,
+      "uname": "Ram7",
+      "email": "Ram7@gmail.com",
+      "phone": 8675943210
+    },
+    {
+      "id": 8,
+      "uname": "Ram8",
+      "email": "Ram8@gmail.com",
+      "phone": 8675943210
+    },
+    {
+      "id": 9,
+      "uname": "Ram9",
+      "email": "Ram9@gmail.com",
+      "phone": 7658902341
+    },
+    {
+      "uname": "chandu",
+      "email": "chandu322161913@gmail.com",
+      "phone": "7799138419",
+      "id": 10
+    },
+    {
+      "uname": "Ramanji",
+      "email": "Ramanji@gmail.com",
+      "phone": "9999666624",
+      "id": 11
+    }
+  ],
+  "bookings": [
+    {
+      "sno": 1,
+      "Datebooking": "10-09-2022",
+      "product": "MI-MOBILE"
+    },
+    {
+      "sno": 2,
+      "Datebooking": "12-09-2022",
+      "product": "REALME"
+    }
+  ],
+  "admins": [
+    {
+      "sno": 1,
+      "uname": "Ram1",
+      "mobile": 7815643290
+    },
+    {
+      "sno": 2,
+      "uname": "Ram2",
+      "mobile": 9867453210
+    },
+    {
+      "sno": 3,
+      "uname": "Ram3",
+      "mobile": 7645892301
+    }
+  ]
+}

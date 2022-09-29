@@ -1,0 +1,38 @@
+<script>
+
+    // class_declaration & Body
+    class user 
+    {
+        //class-properties/variables
+        uid;
+        uname;
+        uemail;
+
+        // class_methods/functions
+        Myfun1(request,id)
+        {
+            var msg = request
+            return`${msg}-${this.uid=id} <br/>`
+        }
+        Myfun2 = function(request,name)
+        {
+            var msg = request
+            return `${msg}-${this.uname=name}<br/>`
+        }
+        Myfun3=(request,email)=>
+        {
+            var msg = request
+            return`${msg}-${this.uemail=email} `
+        }
+    }
+
+    //object of the class
+    //var objectName = new className
+     var u=new user
+     document.write(`
+                    <h3>Class Methods Data: </h3> 
+                     ${u.Myfun1("Named Function with Argument",1001)} <br/>
+                     ${u.Myfun2("Call back Function with Argument","kumar")} <br/>
+                     ${u.Myfun3("Arrow Function with Argument","kumar@gmail.com")} 
+                  `)
+</script>
